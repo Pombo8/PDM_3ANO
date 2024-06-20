@@ -1,0 +1,21 @@
+const saudacao = 'ola';
+
+function exec(){
+    const saudacao ='fala';
+    return saudacao;
+}
+
+let cliente = {
+    nome: "felipe",
+    idade: 32,
+    peso: 70,
+
+    // endereco é um objeto dentro de outro objeto
+    endereco: {
+        logradoura: "Rua x",
+        numero: 182
+    }
+}
+
+console.log(saudacao)
+console.log(exec())
